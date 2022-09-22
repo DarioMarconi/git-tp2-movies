@@ -23,8 +23,8 @@ function getFirstTenMovies(){
 function main(){
     const firstTenMovies = getFirstTenMovies();
     const dramaMovies = getMoviesWithGenre('Drama');
-    console.log(`Only first ten movies:\n${firstTenMovies}\n`);
-    console.log(`Only Drama movies:\n${dramaMovies}\n`);
+    console.log(`Only first ten movies ${JSON.stringify(firstTenMovies)}`)
+    console.log(`Only first ten movies`, firstTenMovies);
 }
 
 main();
