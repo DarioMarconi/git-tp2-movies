@@ -1,7 +1,8 @@
 const movies = require('./movies.json');
 
 /**
- * Complete with a brief definition of what this function should do
+ * 
+This feature chooses the top 10 movies
  * @returns {Array}
  */
 function getFirstTenMovies(){
@@ -9,7 +10,7 @@ function getFirstTenMovies(){
 }
 
 /**
- * Complete with a brief definition of what this function should do
+ * This function chooses the genres of the movies
  * @param  {String} genre
  * @returns {Array}
  */
